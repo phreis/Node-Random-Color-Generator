@@ -29,6 +29,7 @@ function getUserInput() {
   });
   return retVal;
 }
+
 // console.log(`hue: ${hue}, luminosity: ${luminosity}`);
 
 // Get colorCode
