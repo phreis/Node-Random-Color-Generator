@@ -20,18 +20,20 @@ npm install
 
 ## Usage
 
-- To generate Grid in random color:
+- To generate the grid in random color:
 
 ```bash
 node index.js
 ```
 
-- To generate Grind with spcified `hue` (e.g. green or red or blue)
+- To generate the grid with spcified `hue` (e.g. green or red or blue)
   node index.js [hue]
 
 ```bash
 node index.js red
 ```
+
+![](./screenshot_red.png)
 
 - To generate Grind with spcified `hue` (e.g. green or red or blue) and `luminosity` (e.g. light or dark):
   node index.js [hue] [light|dark]
@@ -39,3 +41,5 @@ node index.js red
 ```bash
 node index.js blue dark
 ```
+
+![](./screenshot_blue.png)
